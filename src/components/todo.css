@@ -40,3 +40,20 @@
     border-radius: 20px;
     outline: none;
 }
+@media (max-width: 600px){
+    #inp{
+        color: red;
+        width: 50%;
+    }
+}
+@media (max-width: 400px){
+    #inp{
+        color: green;
+        width: 50%;
+    }
+    #btn{
+        width: 40%;
+        box-sizing: border-box;
+        align-items: flex-end;
+    }
+}
